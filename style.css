@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(248, 244, 0);
+}
+
+main {
+    margin: 50px 100px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    height: 250px;
+    width: 250px;
+
+    font-size: 38px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(0, 197, 197);
+
+    border-radius: 25px;
+}
