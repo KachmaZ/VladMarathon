@@ -17,14 +17,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 400px;
+  max-width: 1024px;
 }
 
 .square {
   width: 16px;
   height: 16px;
   background: #1d1d1d;
-  margin: 2px;
+  margin: 1px;
   box-shadow: 0 0 2px #000;
   transform: rotate(180deg);
   transition: 2s ease;
@@ -32,5 +32,4 @@ body {
 
 .square:hover {
   transition-duration: 0s;
-  transform: rotate(360deg);
 }

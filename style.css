@@ -1,14 +1,13 @@
 body {
-    background-color: rgb(248, 244, 0);
+    background-color: #111;
 }
 
 main {
     margin: 50px 100px;
 
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
     gap: 50px;
 
     
@@ -21,6 +20,8 @@ a {
 div {
     height: 250px;
     width: 250px;
+    margin: 0 auto;
+
 
     font-size: 38px;
 
@@ -28,9 +29,14 @@ div {
     justify-content: center;
     align-items: center;
 
-    color: rgb(0, 0, 0);
+    color: #d0d326;
     text-align: center;
-    background-color: rgb(0, 197, 197);
+    background: #1d1d1d;
 
+    border: 1px solid #d0d326;
     border-radius: 25px;
+}
+
+div:hover {
+    background: #4b4b4b;
 }
